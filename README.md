@@ -1,6 +1,4 @@
-# test
-
-AngularJS Build Status
+# AngularJS Build Status
 
 AngularJS lets you write client-side web applications as if you had a smarter browser. It lets you use good old HTML (or HAML, Jade and friends!) as your template language and lets you extend HTML’s syntax to express your application’s components clearly and succinctly. It automatically synchronizes data from your UI (view) with your JavaScript objects (model) through 2-way data binding. To help you structure your application better and make it easy to test, AngularJS teaches the browser how to do dependency injection and inversion of control.
 
@@ -15,15 +13,18 @@ Dashboard: http://dashboard.angularjs.org
 Building AngularJS
 
 Once you have your environment setup just run:
-
+```javascript
 grunt package
 Running Tests
+```
 
 To execute all unit tests, use:
-
+```Java
 grunt test:unit
 To execute end-to-end (e2e) tests, use:
 
 grunt package
 grunt test:e2e
+```
+
 To learn more about the grunt tasks, run grunt --help and also read our contribution guidelines.
